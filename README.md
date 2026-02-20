@@ -16,7 +16,7 @@ This means $`\pi`$ can be calculated as
 ```math
 \pi = 4R = \frac{4 N_c}{N_s}.
 ```
-The code uses $`N_s=10000`$ points generated within a square centered on the origin. $`N_c`$ is the number
+The code uses $`N_s=10,000`$ points generated within a square centered on the origin. $`N_c`$ is the number
 of points whos distance, $`r`$, from the origin is greater than unity. This is calculated using the Pythagorean theorem:
 ```math
 r = \sqrt{x^2 + y^2},
