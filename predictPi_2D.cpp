@@ -42,22 +42,13 @@ double predictPi(const int num)
 
     double pi = numInCircle * 4 / (double)num;
 
-    // }
-    //
-    // double pi = 0.0;
-    //
-    // for (int j = 0; j < num; j++)
-    // {
-    //     pi += radii[j] * 4 / (double)num;     // The factor of 4 comes from the area of the square.
-    // }
-
     return pi;
 }
 
 
 int main()
 {
-    int n = 1000000;
+    int n = 10000;
     double pi = predictPi(n);
 
     cout << pi << endl;
