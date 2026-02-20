@@ -16,7 +16,7 @@ This means $`\pi`$ can be calculated as
 ```math
 \pi = 4R = \frac{4 N_c}{N_s}.
 ```
-# Usage
+# Instillation and Usage
 
 To download and compile the code (using g++ on Linux), open the terminal and type 
 ```bash
