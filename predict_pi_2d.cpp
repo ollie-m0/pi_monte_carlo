@@ -12,7 +12,7 @@ using namespace std;
 double generateRadius()
 {
     unsigned seed = chrono::system_clock::now().time_since_epoch().count();
-    default_random_engine generator (seed);
+    mt19937 generator (seed);
 
     // Generate pseudo-random numbers in the range [-1, 1].
     uniform_real_distribution<double> distribution (-1.0, 1.0);
@@ -36,7 +36,7 @@ double predictPi(const int num)
 
         if (fabs(r) <= 1)
         {
-            numInCircle += 1;
+            numInCircle++;
         }
     }
 
