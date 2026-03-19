@@ -1,5 +1,7 @@
 # Estimating Pi Using Monte-Carlo Methods in C++
 
+GitHub page: https://github.com/ollie-m0/pi_monte_carlo/tree/main
+
 ## Overview
 
 The purpose of this project is to practice (pseudo-)random number generation and Monte-Carlo methods in C++.
